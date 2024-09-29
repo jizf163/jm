@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
       <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12" style="padding: 8px 0 0px 8px;">
-          <img src="{{site.imgurl}}/assets/images/logo.png" class="img-responsive" style="margin: 0 auto;"  />
+          <img src="{{site.imgurl}}/assets/images/logo.png" style="margin: 10px auto;"  />
       </div>
       <div class="col-lg-4 col-md-4 hidden-xs hidden-sm" style="display: flex; justify-content: flex-end;line-height: 25px; padding-top: 20px;">
             <a href="/"><div class="icon-flag icon-flag-china">CN</div></a>
@@ -26,32 +26,47 @@
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right" id="main-menu">
+          <ul class="nav navbar-nav navbar-right" id="main-menu" >
+              <li ><div style="width:40px; border-bottom-right-radius: 50px; background-color: #fff;line-height: 50px;">&nbsp;&nbsp;</div></li>
+              <li style="width:10px;border-top-left-radius: 10px;">&nbsp;&nbsp;</li>
               <li><a href="{{site.baseurl}}/index.html" >首页 </a></li>
               <li class="dropdown product">
-                <a href="#" class="dropdown-toggle"  data-toggle="dropdown">产品<span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle"  data-toggle="dropdown">产品<span class="caret" style="margin-left: 10px;"></span></a>
                 
-                <ul class="dropdown-menu" role="menu">
-                    <li><h3>工业过滤</h3>
-                        <div><a href="#">概述</a>  <a href="#">用于工业加工和袋滤器的颗粒和气体过滤</a>  <a href="#">用于生命科学的过滤解决方案</a>  <a href="#">用于工业加工的液体过滤</a>  <a href="#">用于气体涡轮机和户外机壳的空气过滤</a></div>
+                <ul class="dropdown-menu" role="menu" style="min-width: 900px; padding: 20px; border-radius: 2%;left: -260px;">
+                    <li><h3><span class="glyphicon glyphicon-list-alt" style="font-size: 18px;"></span> 功能纺织</h3>
+                        <div><a href="#"><span  class="glyphicon glyphicon-play-circle"></span> 概述</a>  
+                            <a href="{{site.baseurl}}/product/1.html#gongneng"><span  class="glyphicon glyphicon-play-circle"></span> 功能性面料</a>  
+                            <a href="{{site.baseurl}}/product/1.html#junyong"><span  class="glyphicon glyphicon-play-circle"></span> 军用特种纺织</a>  
+                            <a href="{{site.baseurl}}/product/1.html#gongneng"><span  class="glyphicon glyphicon-play-circle"></span> 民用纺织</a>  
+                            <a href="{{site.baseurl}}/product/1.html#gongneng"><span  class="glyphicon glyphicon-play-circle"></span> 户外面料</a></div>
                     </li>
-                    <li><h3>纺织面料</h3>
-                        <div><span>概述</span>  <span>Giamor织物</span>  <span>用于有机废物出来的封罩系统</span>  军用职务  消费服务织物</div>
+                    <li><h3><span class="glyphicon glyphicon-list-alt"  style="font-size: 18px;"></span> 新风净化</h3>
+                        <div>
+                            <a href="#"><span  class="glyphicon glyphicon-play-circle"></span> 概述</a>  
+                            <a href="#"><span  class="glyphicon glyphicon-play-circle"></span> 高效HEPA</a>  
+                            <a href="#"><span  class="glyphicon glyphicon-play-circle"></span> 超高效ULPA覆膜虑纸</a>  
+                            </div>
                     </li>
-                    <li><h3>纤维产品</h3>
-                        产品列表
+                    <li><h3><span class="glyphicon glyphicon-list-alt"  style="font-size: 18px;"></span> 新能源电池</h3>
+                        <div>
+                            <a href="{{site.baseurl}}/product/1.html#gongneng"><span  class="glyphicon glyphicon-play-circle"></span> 概述</a>
+                            <a href="{{site.baseurl}}/product/1.html#gongneng"><span  class="glyphicon glyphicon-play-circle"></span> 电解水制氢</a>  
+                            <a href="{{site.baseurl}}/product/1.html#gongneng"><span  class="glyphicon glyphicon-play-circle"></span> 新能源汽车氢燃料电池</a>  
+                            <a href="{{site.baseurl}}/product/1.html#gongneng"><span  class="glyphicon glyphicon-play-circle"></span> 全钒液流电池储能系统</a></div>
                     </li>
-                   
-                    <li><h3>医疗</h3>
-                        产品列表</li>
-                    <li><h3>消防</h3>
-                        产品列表</li>
-                    <li><h3>航空航天</h3>
-                        产品列表</li>
+                    <li><h3><span class="glyphicon glyphicon-list-alt"  style="font-size: 18px;"></span> 生物医药</h3>
+                        <div>
+                            <a href="{{site.baseurl}}/product/1.html#gongneng"><span  class="glyphicon glyphicon-play-circle"></span> 概述</a>  
+                            <a href="{{site.baseurl}}/product/1.html#gongneng"><span  class="glyphicon glyphicon-play-circle"></span> 生物过滤</a>  
+                            <a href="{{site.baseurl}}/product/1.html#gongneng"><span  class="glyphicon glyphicon-play-circle"></span> 医疗防护</a>  
+                            <a href="{{site.baseurl}}/product/1.html#gongneng"><span  class="glyphicon glyphicon-play-circle"></span> 健康护理</a></div>
+                    </li>
+                    
                 </ul>
               </li>
               <li class="dropdown product">
-                <a href="#" class="dropdown-toggle"  data-toggle="dropdown">应用<span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle"  data-toggle="dropdown">应用<span class="caret" style="margin-left: 10px;"></span></a>
                 
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="{{site.baseurl}}/tech/01.html">航空航天</a></li>
@@ -66,22 +81,19 @@
                     <li><a href="{{site.baseurl}}/tech/04.html">半导体与芯片</a></li>
                 </ul>
               </li>
-              <li class="zoujinjiamo"><a href="{{site.baseurl}}/about/company.html">走进佳膜</a></li>
+              
 
-              <li class="dropdown hexinjishu">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">核心技术<span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                      <li><a href="{{site.baseurl}}/tech/01.html">行业标准</a></li>
-                      <li><a href="{{site.baseurl}}/tech/02.html">政策声明</a></li>
-                      <li><a href="{{site.baseurl}}/tech/05.html">行业指标</a></li>
-                      <li><a href="{{site.baseurl}}/tech/03.html">技术信息</a></li>
-                      <li><a href="{{site.baseurl}}/tech/04.html">安全信息</a></li>
-                  </ul>
+              <li>
+                  <a href="#" >核心技术</a>
+                  
               </li>
               
-              <li class="fuwuanli visible-lg-block"><a href="{{site.baseurl}}/">服务案例</a></li>
-              <li style="width:100px"></li>
-
+              <li class="fuwuanli visible-lg-block"><a href="{{site.baseurl}}/about/fuwuanli.html">服务案例</a></li>
+              <li class="zoujinjiamo"><a href="{{site.baseurl}}/about/company.html">走进佳膜</a></li>
+              <li style="width: 100px;">&nbsp;</li>
+              
+              <li style="width:10px;border-top-right-radius: 10px;">&nbsp;&nbsp;</li>
+              <li ><div style="width:40px; border-bottom-left-radius: 50px; background-color: #fff;line-height: 50px;">&nbsp;&nbsp;</div></li>
               <!-- <li class="{$hezuoshenqing}"><a href="{{site.baseurl}}/about/jiameng.html" >代理申请</a></li> -->
           </ul>
 
