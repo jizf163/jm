@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include head.html %}
+</head>
+<body class="body-white">
+{% include nav.html%}
+
+<div style="background-color: #f5f5f5; padding: 30px 0 30px 0;"> 
+    <div class="container">
+        <ol class="breadcrumb">
+            <li><a href="/">首页</a></li>
+            <li class="active">产品</li>
+            <li class="active">新风净化</li>
+        </ol>
+    </div>
+    
+    <div class="container product-detail" style="background-color: #fff;">
+        
+        <div class="row" id="gaishu">
+            <div class="col-md-8">
+                <h1>概述</h1>
+                <p>环保法规越来越严格，污染控制已经成为环境、财务和法律方面都不得不必须面对的问题。
+                    佳膜的袋式除尘器作为一种高效除尘器，广泛用于各种工业废气除尘中，如轻工、机械制造、建材、化工、有色冶炼及钢铁企业等。
+                    它比电除尘器的结构简单，投资省，运行稳定，还可以回收因难于回收的粉尘。
+                </p>
+                <div class="row" style="padding:10px">
+                    <img src="{{site.imgurl}}/assets/images/product/20241001175812.jpg" class="img-thumbnail col-md-4" style="padding:10px" >
+                    <img src="{{site.imgurl}}/assets/images/product/20241001175831.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
+                    <img src="{{site.imgurl}}/assets/images/product/20241001175858.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="{{site.imgurl}}/assets/images/product/20241001172446.jpg" class="img-thumbnail">
+            </div>
+        </div>
+        <hr>
+        <div class="row"  id="hepa">
+            <div class="col-md-8">
+                <h1>高效HEPA</h1>
+                
+                <p>
+                    HEPA(High efficiency particulate air Filter)，中文意思为高效空气过滤器。
+HEPA分为PP（聚丙烯）滤纸、玻璃纤维、复合PP/PET（聚对苯二甲酸乙二醇酯,聚脂）滤纸、熔喷涤纶无纺布和熔喷玻璃纤维五种材质。
+
+                </p>
+                <p>HEPA过滤材料，是化纤熔喷或者纤维层压或编织而成的，它的过滤机制有以下四种：
+                    <br>（1）第一种即为拦截机制，对大颗粒物起作用。
+                    <br>（2）第二种机制为重力影响，体积小密度高的颗粒，在经过HEPA滤网时运动速度会降低，
+                    自然沉降到HEPA上，此过程有点类似水中泥沙在河下游沉降的过程。
+                    <br>（3）HEPA滤网的第三种机制为，气流影响。由于HEPA滤网编织不均匀，形成大量的空气漩涡，
+                    超小颗粒物受到此气旋的影响吸附在HEPA滤网上，实现过滤目的。
+                    <br>（4）第四种过滤机制为超微颗粒在布朗运动的作用下撞击到HEPA滤网纤维上受到范德华力影响，被吸附过滤。
+                    可以看到除了第一种机制拦截大颗粒外，它就是利用纤维根部的静电，来吸附微小颗粒物而获得过滤效果。
+                    </p>
+                    <div class="row" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001181148.jpg" class="img-thumbnail col-md-4" style="padding:10px" >
+                        <img src="{{site.imgurl}}/assets/images/product/20241001180839.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001180649.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
+                    </div>    
+                
+            </div>
+            <div class="col-md-4"><h4>高效HEPA</h4>{% include wellcome.html%}</div>
+        </div>
+        <hr/>
+        <div class="row" id="ulpa">
+            <div class="col-md-8">
+                <h1>膜净窗式新风</h1>
+                <p>4M-PTFE膜是真正一次性过滤PM2.5和PM10达到99.7%的产品
+                    无需像室内净化器一样反复过滤室内不洁净空气。
+                    4M-PTFE膜的使用效果不受环境任何影响。
+                    一般HEPA滤芯在环境湿度较高时失效，使用时间超过3个性能显著下降。
+                    遭遇室外污染，居室和办公室的人群最需要的是洁净的室外空气给居室或办公室通风。
+                    室外严重污染时，不能开窗通风，尽管可以开启室内空气净化器，但是室内的二氧化碳浓度会逐步升高。当二氧化碳超过一定量时会影响人的呼吸，原因是血液中的碳酸浓度增大，酸性增强，并产生酸中毒。空气中二氧化碳的体积分数为1%时，感到气闷，头昏，心悸；4%-5%时感到眩晕。因为二氧化碳比空气重，集中在低处，所以二氧化碳浓度高对室内儿童的危害更大。
+
+                </p>
+                <img src="{{site.imgurl}}/assets/images/product/20241001181329.jpg" class="img-thumbnail">
+            </div>
+            <div class="col-md-4"><h4>膜净窗式新风</h4>{% include wellcome.html%}</div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        {% include footer.html %}
+    </div>
+</div>
+
+<!-- /container -->
+<include file="public@scripts"/>
+<script src="{{site.baseurl}}/assets/js/slippry.min.js"></script>
+<script>
+    $(function () {
+        $("#home-slider").slippry({
+            transition: 'fade',
+            useCSS: true,
+            captions: false,
+            speed: 1000,
+            pause: 3000,
+            auto: true,
+            preload: 'visible'
+        });
+        $("#home-slider").show();
+    });
+
+
+</script>
+<hook name="before_body_end"/>
+</body>
+</html>

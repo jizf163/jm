@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include head.html %}
+</head>
+<body class="body-white">
+{% include nav.html%}
+
+<div style="background-color: #f5f5f5; padding: 30px 0 30px 0;"> 
+    <div class="container">
+        <ol class="breadcrumb">
+            <li><a href="/">首页</a></li>
+            <li class="active">产品</li>
+            <li class="active">生物医药</li>
+        </ol>
+    </div>
+    <div class="container product-detail" style="background-color: #fff;">
+        <div class="row" id="gaishu">
+            <div class="col-md-8">
+                <h1>概述</h1>
+                <p>生物医药板块属于比较尖端的领域，目前全世界只有美国GE及POLL这两家企业可以独立完成产品的研发及市场运营，其余日本、美国等少数相关复合材料的生产企业都是用的这两家企业的基膜。
+                    目前佳膜公司已经完成基础膜及复合产品研发，已经达到欧美国家该行业生产企业的生产标准，力争在未来五年内完成国产化替代。
+                    在医用防护领域，佳膜公司已经达到国际领先水平，产品已经规模化生产，目前防护产品订单充足。
+                    公司研发并已量产的PTFE医用防护材料因其优异的防护性、透气性以及耐老化性，被誉为“会呼吸防护服”，是后疫情时代医用防护产品
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="{{site.imgurl}}/assets/images/product/20241001204817.jpg" class="img-thumbnail">
+            </div>
+        </div>
+        <hr>
+        <div class="row"  id="guolv">
+            <div class="col-md-8">
+                <h1>BioMedem ®️ 生物医用滤膜</h1>
+                <p>细菌尺寸通常大于1μm，佳膜PTFE膜的孔径尺寸可以达到0.02μm，实现气体、液体的超净过滤，膜的表面自洁功能（摩擦系数≤ 0.04）又可避免细菌在膜表面聚集；
+                    PTFE微孔膜具有良好的耐高温（260℃）、抗化学腐蚀（强酸强碱）性能，具有疏水性（吸水率约为0.001%-0.005%），是非水性溶剂，酸和腐蚀性液体无菌排气的理想选择，经过亲水性改造也可用于水溶液的除菌过滤，以及各类医疗防护设备的制造。
+                    
+                </p>
+                <p>
+                    微滤筒（液体和无菌气体）<br>
+                    针头式过滤器<br>
+                    IV滤器排气口<br>
+                    传感器保护装置（肾透析等)<br>
+                    储液罐排放口<br>
+                    血液透析膜
+
+                </p>
+               
+                <img src="{{site.imgurl}}/assets/images/product/20241001204714.jpg" class="img-thumbnail"  style="padding:10px">
+            </div>
+            <div class="col-md-4"><h4>BioMedem ®️ 生物医用滤膜</h4>{% include wellcome.html%}</div>
+        </div>
+        <hr/>
+        <div class="row" id="fanghu">
+            <div class="col-md-8">
+                <h1>新型ePTFE医用防护材料</h1>
+                <p>面料采用无纺衬+PTFE膜+无纺衬复合而成。
+
+                    PTFE膜是以聚四氟乙烯为原料，采用特殊工艺，经压延、挤出、双向拉伸、高温定型等制备而成，膜表面布满原纤维状微孔，孔隙率90%以上，每一平方英寸有多达90亿个微孔， PTFE膜可以阻隔水滴、颗粒物、细菌通过，可以让水蒸气透过，具有优异的防水、透气、透湿、阻菌效果。
+                    
+                    面料具有良好的水洗色牢度、可洗十次以下、防止缩水，不助燃、无毒无刺激性、对皮肤无害、耐磨损等性能. 由于聚四氟乙烯微孔膜的孔径可控制在0.2μm左右，所以是一种新型防护服面料。与织物复合之后，可做成防护服，阻隔病毒通过，加上材料本身还具有防水透 的功能，还为使用者带来了更好的舒适性。最重要阻隔细菌及病毒得功能达到100%,加之它有高强得透气性，让使用者在穿着时身体皮肤可以自由呼吸，身体可以达到有氧状态下工作。人性化的设计，透气、防水、阻菌、阻燃、抗静电、抗老化、防渗透性等功能，是医护人员最好的装备材料。
+                    
+            
+                </p>
+                <div class="row" style="padding:10px">
+                    <img src="{{site.imgurl}}/assets/images/product/20241001205501.jpg" class="img-thumbnail col-md-4" style="padding:10px" >
+                    <img src="{{site.imgurl}}/assets/images/product/20241001205607.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
+                    <img src="{{site.imgurl}}/assets/images/product/20241001205807.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
+                </div>
+                
+            </div>
+            <div class="col-md-4"><h4>新型ePTFE医用防护材料</h4>{% include wellcome.html%}</div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        {% include footer.html %}
+    </div>
+</div>
+
+<!-- /container -->
+<include file="public@scripts"/>
+<script src="{{site.baseurl}}/assets/js/slippry.min.js"></script>
+<script>
+    $(function () {
+        $("#home-slider").slippry({
+            transition: 'fade',
+            useCSS: true,
+            captions: false,
+            speed: 1000,
+            pause: 3000,
+            auto: true,
+            preload: 'visible'
+        });
+        $("#home-slider").show();
+    });
+
+
+</script>
+<hook name="before_body_end"/>
+</body>
+</html>

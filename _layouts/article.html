@@ -8,49 +8,32 @@
 <div style="width: 100%">
     <img style="width:100%" src="{{site.imgurl}}/assets/images/banner01.jpg" alt="">
 </div>
-<div class="container">
-    <h2>{{page.title}}</h2>
+<div class="container  product-detail ">
+    
     <ol class="breadcrumb">
         <li><a href="{{site.baseurl}}/">首页</a></li>
         <li><a href="">{{page.category}}</a></li>
         <li class="active">{{page.title}}</li>
     </ol>
     <div class="row">
-        <div class="col-md-9">
-            <div class="tc-box article-box">
-                
-                <div id="article_content" style="line-height: 30px;">
-                    {% if page.pic %}
-                        <img src="{{site.imgurl}}{{page.pic}}" style="padding-bottom: 30px;"/>
-                    {%endif%}
-                    <div>{{page.detail}}</div>
-                    
-                </div>
-
-
-               
-
-            </div>
+        <div class="col-md-8">
+            <h1>{{page.title}}</h1>
+            <p>{{page.detail}}</p>    
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             {% if page.category == "关于我们" %}
             {% include nav_about.html %}
             {% else%}
             {% include nav_tech.html %}
             {% endif %}
-            <div style="margin-top: 20px;"> 
+            <div style="margin-top: 20px;padding: 0px 10px 0 10px;"> 
                 <img class=" center-block img-thumbnail" src="{{site.imgurl}}/assets/images/kefu.jpg"> 
             </div>
         </div>
     </div>
 </div>
 
-<div class="footer">
-    <div class="container">
-        {% include footer.html %}
-    </div>
-</div>
-
+{% include footer.html %}
 <!-- /container -->
 <include file="public@scripts"/>
 <script src="{{site.baseurl}}/assets/js/slippry.min.js"></script>
