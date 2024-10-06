@@ -73,13 +73,7 @@ label, input, button, select, textarea {
 .article_menu>li{ padding: 5px 0 5px 0;}
 .article_menu a{color: #757575}
 .article_menu .checked a{ color: #ff6700}
-.buyCount{padding: 20px 0 20px 0;}
-.buyCount span{ float: left; display: block;padding-right: 20px}
-.goodsCount{ border: 1px #CCC solid;float: left;    font-family: arial;    font-size: 13px;    padding: 0;    text-align: center;    width: 40px;height: 30px;    line-height: 30px;    margin-left: -1px;    vertical-align: middle;;}
 .decrement,.increment{text-decoration:none!important; display: block;float: left;    border: 1px solid #CCC;    height: 30px;    line-height: 30px;    margin-left: -1px;    vertical-align: middle; text-align: center;width: 30px;}
-.u-bank-alipay{ display: block;  background: url('../images/bank-logo.gif') 10px -1098px; width: 120px; height: 33px; border: 1px solid #e33d29;}
-.u-bank-weixin{ display: block;  background: url('../images/bank-logo.gif') 10px -942px; width: 120px; height: 33px; border: 1px solid #e33d29;}
-.u-bank-unionpay{ display: block;  background: url('../images/bank-logo.gif') 10px -911px; width: 120px; height: 33px; border: 1px solid #e33d29;}
 
 .bank{ border: 1px solid #eeeeee;}
 
@@ -112,6 +106,5 @@ label, input, button, select, textarea {
     
 }
 
-.productBg{ background: url('../images/pic02.jpg') center top no-repeat; background-color: #86AD43;}
 .product-detail p{ line-height: 35px;padding: 10px 0 10px 0;font-size: 18px;}
 .breadcrumb li{font-size: 18px;}
