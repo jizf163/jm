@@ -7,14 +7,14 @@ collections:
  about:
    name: 关于我们
    output: true
- anli:
-   name: 应用案例
+ en_product:
+   name: english
    output: true
  product:
    name: 核心产品
    output: true
- tech:
-   name: 核心技术
+ en_about:
+   name: 
    output: true
 baseurl: "" # the subpath of your site, e.g. /blog 
 imgurl: ""
