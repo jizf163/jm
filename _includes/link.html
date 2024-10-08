@@ -1,0 +1,42 @@
+<div class="link">
+    <div style="background-color:#F25250">
+        <span class="glyphicon glyphicon-phone-alt"></span>
+        <div style="position: absolute; background-color: #343434; top:0px;right: 55px;width:200px;display: none;">010-67722766</div>
+    </div>
+    <div style="background-color:#343434;">
+        <span class="glyphicon glyphicon-envelope"></span>
+        <div style="position: absolute; background-color: #343434; top:55px;right: 55px;width:350px;display: none;">postmaster@giamor-tech.com</div>
+    </div>
+    <div style="background-color:#343434;">
+        <span class="glyphicon glyphicon-qrcode"></span>
+        <div style="position: absolute; background-color: #343434; top:110px;right: 55px;width:200px;height:200px;display: none;padding:10px">
+            <img src="{{site.imgurl}}/assets/images/erweima.jpg" class="img-thumbnail" >
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        $('.link').find('div').hover(function(){
+            // 鼠标进入时
+                 $(this).find('div').css('display',"inline");
+                }, function() {
+    // 鼠标离开时
+                 $(this).find('div').css('display',"none");
+        })
+
+//   $('#phone').hover(function() {
+//     console.log($('#phone').next());
+//     $(this).next().css('display',"inline");
+//     // 鼠标进入时
+//     $(this).find('.icon').stop().animate({
+//       left: 0
+//     }, 300); // 0.3秒内完成移动
+//   }, function() {
+//     // 鼠标离开时
+//     $('#phone').next().css('display',"none");
+//     $(this).find('.icon').stop().animate({
+//       left: -50
+//     }, 300); // 0.3秒内完成移回
+//   });
+});
+</script>

@@ -2,12 +2,11 @@
 <div class="container">
   <div class="row">
       <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12" style="padding: 8px 0 0px 8px;">
-          <img src="{{site.imgurl}}/assets/images/logo.png" style="margin-top: 10px;"  />
+          <!-- <img src="{{site.imgurl}}/assets/images/logo.png" style="margin-top: 10px;"  /> -->
       </div>
       <div class="col-lg-4 col-md-4 hidden-xs hidden-sm" style="display: flex; justify-content: flex-end;line-height: 25px; padding-top: 20px;">
             <a href="/"><div class="icon-flag icon-flag-china">CN</div></a>
             <a href="/en/"><div class="icon-flag icon-flag-en" style="margin:0 30px 0 20px;">EN</div></a>
-          
       </div>
   </div>
 </div>
@@ -22,7 +21,7 @@
 
 
           </button>
-          <!-- <a class="navbar-brand" href="#"><img src="{{site.imgurl}}/assets/images/logo-1.png"  /></a> -->
+          <a class="navbar-brand" href="{{site.baseurl}}/"><img src="{{site.imgurl}}/assets/images/logo.png"  /></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -111,3 +110,4 @@
   </div><!-- /.container-fluid -->
 </nav>
 </div>
+{% include link.html %}
