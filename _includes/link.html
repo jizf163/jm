@@ -18,10 +18,10 @@
     $(document).ready(function() {
         $('.link').find('div').hover(function(){
             // 鼠标进入时
-                 $(this).find('div').css('display',"inline");
+                 $(this).find('div').fadeIn(500);
                 }, function() {
     // 鼠标离开时
-                 $(this).find('div').css('display',"none");
+                 $(this).find('div').fadeOut(500);
         })
 
 //   $('#phone').hover(function() {
