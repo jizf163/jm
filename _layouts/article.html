@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     {% include head.html %}
 </head>
-<body class="body-white">
-{% include nav.html%}
 
-<div class="container  product-detail ">
-    
-    <ol class="breadcrumb">
-        <li><a href="{{site.baseurl}}/">首页</a></li>
-        <li><a href="">{{page.category}}</a></li>
-        <li class="active">{{page.title}}</li>
-    </ol>
-    <div class="row">
-        <div class="col-md-8">
-            <h1>{{page.title}}</h1>
-            <p>{{page.detail}}</p>    
+<body class="body-white">
+    {% include nav.html%}
+    <div  style="background-color: #f5f5f5; padding: 30px 0 30px 0;">
+        <div class="container">
+
+            <ol class="breadcrumb">
+                <li><a href="{{site.baseurl}}/">首页</a></li>
+                <li><a href="">{{page.category}}</a></li>
+                <li class="active">{{page.title}}</li>
+            </ol>
         </div>
-        <div class="col-md-4">
-            {% if page.category == "关于我们" %}
-            {% include nav_about.html %}
-            {% else%}
-            {% include nav_tech.html %}
-            {% endif %}
-            <div style="margin-top: 20px;padding: 0px 10px 0 10px;"> 
-                <img class=" center-block img-thumbnail" src="{{site.imgurl}}/assets/images/kefu.jpg"> 
+        <div class="container product-detail"  style="background-color: #fff;">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>{{page.title}}</h1>
+                    <p>{{page.detail}}</p>
+                </div>
+                <div class="col-md-4" style="padding-top: 10px;">
+                    {% if page.category == "关于我们" %}
+                    {% include nav_about.html %}
+                    {% else%}
+                    {% include nav_tech.html %}
+                    {% endif %}
+                    <div style="margin-top: 20px;padding: 0px 10px 0 10px;">
+                        <img class=" center-block img-thumbnail" src="{{site.imgurl}}/assets/images/kefu.jpg">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-{% include footer.html %}
-<!-- /container -->
-<include file="public@scripts"/>
-<script src="{{site.baseurl}}/assets/js/slippry.min.js"></script>
-<script>
-    $(function () {
-        $("#home-slider").slippry({
-            transition: 'fade',
-            useCSS: true,
-            captions: false,
-            speed: 1000,
-            pause: 3000,
-            auto: true,
-            preload: 'visible'
+    </div>
+    {% include footer.html %}
+    <!-- /container -->
+    <include file="public@scripts" />
+    <script src="{{site.baseurl}}/assets/js/slippry.min.js"></script>
+    <script>
+        $(function () {
+            $("#home-slider").slippry({
+                transition: 'fade',
+                useCSS: true,
+                captions: false,
+                speed: 1000,
+                pause: 3000,
+                auto: true,
+                preload: 'visible'
+            });
+            $("#home-slider").show();
         });
-        $("#home-slider").show();
-    });
 
 
-</script>
-<hook name="before_body_end"/>
+    </script>
+    <hook name="before_body_end" />
 </body>
+
 </html>

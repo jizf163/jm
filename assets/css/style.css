@@ -103,7 +103,7 @@ label, input, button, select, textarea {
     
 }
 
-.product-detail p{ line-height: 35px;padding: 10px 0 10px 0;font-size: 18px;}
+
 .breadcrumb li{font-size: 18px;}
 .link{
     width:50px; 
@@ -122,3 +122,5 @@ label, input, button, select, textarea {
     color: #fff;
 
 }
+
+.product-detail p{ line-height: 35px;padding: 10px 0 10px 0;font-size: 18px;}
