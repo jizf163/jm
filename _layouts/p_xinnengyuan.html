@@ -1,110 +1,134 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     {% include head.html %}
 </head>
+
 <body class="body-white">
-{% include nav.html%}
+    {% include nav.html%}
 
-<div style="background-color: #f5f5f5; padding: 30px 0 30px 0;"> 
-    <div class="container">
-        <ol class="breadcrumb">
-            <li><a href="/">首页</a></li>
-            <li class="active">产品</li>
-            <li class="active">新能源电池</li>
-        </ol>
-    </div>
-    <div class="container product-detail" style="background-color: #fff;">
-        <div class="row" id="gaishu">
-            <div class="col-md-8">
-                <h1>概述</h1>
-                <p>质子交换膜目前主要应用于新能源汽车氢燃料电池、电解水制氢以及储能等领域。
-                    质子交换膜（PEMFC)是有机氟化工产业链中技术难度大、附加值高的环节，历史上，全球质子交换膜基本由国外大公司生产垄断，
-                    包括美国GORE-SELECTR、美国杜邦、日本旭硝子与旭化成等。
-                </p>
-            </div>
-            <div class="col-md-4">
-                <img src="{{site.imgurl}}/assets/images/product/20241001202643.jpg" class="img-thumbnail">
-            </div>
+    <div style="background-color: #f5f5f5; padding: 30px 0 30px 0;">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="/">首页</a></li>
+                <li class="active">产品</li>
+                <li class="active">新能源</li>
+            </ol>
         </div>
-        <hr>
-        <div class="row"  id="zhiqing">
-            <div class="col-md-8">
-                <h1>电解水制氢</h1>
-                <p>根据国家统计局的数据，我国弃水、弃风、弃光总量达1022亿kWh，按照10%用于制氢计算，可满足超过100万辆乘用车用氢需求。
-                    目前电解水制氢方法比较成熟的是质子交换膜电解水与碱性电解水两种方案，质子交换膜电解水无论在使用寿命、电流密度、
-                    设备启停速度还是后期运维成本均全面超越传统的碱性电解水，二期质子交换膜电解水更加稳定、占地面积更小，具备规模化发展的优势。
-                </p>
-                <img src="{{site.imgurl}}/assets/images/product/20241001201256.jpg" class="img-thumbnail"  style="padding:10px">
-            </div>
-            <div class="col-md-4"><h4>电解水制氢</h4>{% include wellcome.html%}</div>
-        </div>
-        <hr/>
-        <div class="row" id="dianchi">
-            <div class="col-md-8">
-                <h1>新能源汽车氢燃料电池</h1>
-                <p>质子交换膜燃料电池（PEMFC）是最为常用的燃料电池形式，其具有体积小、工作效率高、启动迅速、寿命长与电流大等优点。
-                    它是将氢气和氧气的化学能直接转换成电能的发电装置。
-                    其基本原理是把氢和氧分别供给阳极和阴极，氢通过阳极向外扩散和电解质发生反应后，
-                    放出电子通过外部的负载到达阴极，从而产生电流。
-             据统计，PEMFC在燃料电池类型的出货量中占据绝对主导地位，无论是台数（目前每年超过44000台）
-             还是兆瓦（目前超过1000MW），过去5年来均保持高速增长，市场占有率超过80%。
-             我国燃料电池汽车2020年保有量为7355辆，根据《节能与新能源汽车技术路线图》提出2025年、2030年，
-             燃料电池汽车发展目标为16.5万辆以及100万辆。
-             可以看出，质子交换膜作为燃料电池的核心零部件，未来3-5年的增量市场空间非常广阔。
-            
-                </p>
-                <div class="row" style="padding:10px">
-                    <img src="{{site.imgurl}}/assets/images/product/20241001201703.jpg" class="img-thumbnail col-md-4" style="padding:10px" >
-                    <img src="{{site.imgurl}}/assets/images/product/20241001201559.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
-                    <img src="{{site.imgurl}}/assets/images/product/20241001201640.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
+        <div class="container product-detail" style="background-color: #fff;">
+            <div class="row" id="gaishu">
+                <div class="col-md-8">
+                    <h1>概述</h1>
+                    <p>质子交换膜目前主要应用于新能源汽车氢燃料电池、电解水制氢以及储能等领域。
+                        质子交换膜（PEMFC)是有机氟化工产业链中技术难度大、附加值高的环节，历史上，全球质子交换膜基本由国外大公司生产垄断，
+                        包括美国GORE-SELECTR、美国杜邦、日本旭硝子与旭化成等。
+                    </p>
+                    <p>佳膜公司利用长期积累的聚四氟乙烯膜研发和生产经验，从2020年开始研发质子交换膜基膜，其主要技术指标大部分已经达到了
+                        复合质子交换膜生产厂家对基膜的要求，在不久的将来，佳膜公司生产的质子交换膜基膜，会成为国内最先可以替代国外垄断的
+                        氢燃料电池核心部件质子交换膜产品的上游供应商。</p>
                 </div>
-                
-            </div>
-            <div class="col-md-4"><h4>新能源汽车氢燃料电池</h4>{% include wellcome.html%}</div>
-        </div>
-        <hr/>
-        <div class="row" id="chuneng">
-            <div class="col-md-8">
-                <h1>全钒液流电池储能系统
-                </h1>
-                <div class="row" style="padding:10px">
-                    <img src="{{site.imgurl}}/assets/images/product/20241001202846.jpg" class="img-thumbnail col-md-4" style="padding:10px" >
-                    <img src="{{site.imgurl}}/assets/images/product/20241001202918.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
-                    <img src="{{site.imgurl}}/assets/images/product/20241001202947.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
+                <div class="col-md-4" style="padding-top: 15px;">
+                    <img src="{{site.imgurl}}/assets/images/product/20241001202643.jpg" class="img-thumbnail">
                 </div>
-                <p>全钒液流电池因液流系统能够保障安全运行，相比于目前储能传统的锂离子电池系统更加安全，其使用寿命可达20年，充放电数万次，
-                    生命周期是传统电池的3-4倍。
-                </p>
-                <img src="{{site.imgurl}}/assets/images/product/20241001203627.jpg" class="img-thumbnail"  style="padding:10px">
             </div>
-            <div class="col-md-4"><h4>全钒液流电池储能系统</h4>{% include wellcome.html%}</div>
+            <hr>
+            <div class="row" id="zhiqing">
+                <div class="col-md-8">
+                    <h1>电解水制氢</h1>
+                    <p>根据国家统计局的数据，我国弃水、弃风、弃光总量达1022亿kWh，按照10%用于制氢计算，可满足超过100万辆乘用车用氢需求。
+                        目前电解水制氢方法比较成熟的是质子交换膜电解水与碱性电解水两种方案，质子交换膜电解水无论在使用寿命、电流密度、
+                        设备启停速度还是后期运维成本均全面超越传统的碱性电解水，二期质子交换膜电解水更加稳定、占地面积更小，具备规模化发展的优势。
+                    </p>
+                    <img src="{{site.imgurl}}/assets/images/product/20241001201256.jpg" class="img-thumbnail"
+                        style="padding:10px">
+                </div>
+                <div class="col-md-4">
+                    <h4>电解水制氢</h4>{% include wellcome.html%}
+                </div>
+            </div>
+            <hr />
+            <div class="row" id="dianchi">
+                <div class="col-md-8">
+                    <h1>新能源汽车氢燃料电池</h1>
+                    <p>氢燃料电池是将氢气和氧气的化学能直接转换成电能的发电装置。<br>
+                        其基本原理是把氢和氧分别供给阳极和阴极，氢通过阳极向外
+                        扩散和电解质发生反应后， 放出电子通过外部的负载到达阴极，从而产生电流。
+                    <h4 style="color: red;">无污染</h4>
+                    氢燃料电池对环境无污染． 它是通过电化学反应 ， 只会产生水和热。
+                    <h4 style="color: red;">无噪声</h4>
+                    氢燃料电池运行安静， 噪声大约只有55dB， 相当于人们交谈的水平。
+                    <h4 style="color: red;">高效率</h4>
+                    氢燃料电池的发电效率可达到50%以上， 其能量转换效率是燃油发动的2-3倍。
+
+                    </p>
+                    <p>膜电极组件是氢燃料电池最为核心的组成部分，而由质子交换膜、催化层和气体扩散层三者构成的膜电极组件则相当于燃料电池的心脏，决定着氢燃料电池的寿命和性能。
+                        其中质子交换膜的主要功能是传输质子，分隔反应气体以及电子绝缘。它负责“把门”，把质子放过去，把电子、氢分子和水分子拦下来，是不可或缺的关键材料，相当于
+                        燃料电池的“芯片”，其性能直接影响燃料电池的稳定性和耐用性。</p>
+
+                    <div class="row" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001201703.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001201559.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001201640.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <h4>新能源汽车氢燃料电池</h4>{% include wellcome.html%}
+                </div>
+            </div>
+            <hr />
+            <div class="row" id="chuneng">
+                <div class="col-md-8">
+                    <h1>全钒液流电池储能系统
+                    </h1>
+                    <div class="row" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001202846.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001202918.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001202947.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                    </div>
+                    <p>全钒液流电池因液流系统能够保障安全运行，相比于目前储能传统的锂离子电池系统更加安全，其使用寿命可达20年，充放电数万次，
+                        生命周期是传统电池的3-4倍。
+                    </p>
+                    <img src="{{site.imgurl}}/assets/images/product/20241001203627.jpg" class="img-thumbnail"
+                        style="padding:10px">
+                </div>
+                <div class="col-md-4">
+                    <h4>全钒液流电池储能系统</h4>{% include wellcome.html%}
+                </div>
+            </div>
+
         </div>
-        
     </div>
-</div>
 
-{% include footer.html %}
+    {% include footer.html %}
 
-<!-- /container -->
-<include file="public@scripts"/>
-<script src="{{site.baseurl}}/assets/js/slippry.min.js"></script>
-<script>
-    $(function () {
-        $("#home-slider").slippry({
-            transition: 'fade',
-            useCSS: true,
-            captions: false,
-            speed: 1000,
-            pause: 3000,
-            auto: true,
-            preload: 'visible'
+    <!-- /container -->
+    <include file="public@scripts" />
+    <script src="{{site.baseurl}}/assets/js/slippry.min.js"></script>
+    <script>
+        $(function () {
+            $("#home-slider").slippry({
+                transition: 'fade',
+                useCSS: true,
+                captions: false,
+                speed: 1000,
+                pause: 3000,
+                auto: true,
+                preload: 'visible'
+            });
+            $("#home-slider").show();
         });
-        $("#home-slider").show();
-    });
 
 
-</script>
-<hook name="before_body_end"/>
+    </script>
+    <hook name="before_body_end" />
 </body>
+
 </html>
