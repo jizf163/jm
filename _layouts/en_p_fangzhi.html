@@ -1,119 +1,164 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     {% include head.html %}
 </head>
+
 <body class="body-white">
-{% include en_nav.html%}
+    {% include en_nav.html%}
 
-<div style="background-color: #f5f5f5; padding: 30px 0 30px 0;"> 
-    <div class="container">
-        <ol class="breadcrumb">
-            <li><a href="/en/">Home</a></li>
-            <li class="active">Product</li>
-            <li class="active">FunctionalTextile</li>
-        </ol>
-    </div>
-    <div class="container product-detail" style="background-color: #fff;">
-        <div class="row" id="gaishu">
-            <div class="col-md-8">
-                <h1>Generality</h1>
-                <p>Polytetrafluoroethylene (PTFE) is formed by laminating PTFE 
-                    microporous film with ordinary fabric using a special adhesive, 
-                    which is not penetrated by water. However, sweat vapor emitted by 
-                    the human body can diffuse or be transmitted to the outside through the 
-                    fabric, without accumulating and condensing between the body surface and the fabric.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <img src="{{site.imgurl}}/assets/images/product/20241001124831.jpg" class="img-thumbnail" style="margin-top: 10px;">
-            </div>
+    <div style="background-color: #f5f5f5; padding: 30px 0 30px 0;">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="/en/">Home</a></li>
+                <li class="active">Product</li>
+                <li class="active">FunctionalTextile</li>
+            </ol>
         </div>
-        <hr>
-        <div class="row"  id="gongneng">
-            <div class="col-md-8">
-                <h1>FUNCTIONAL FABRIC</h1>
-                <div class="row" style="padding:10px">
-                    <img src="{{site.imgurl}}/assets/images/product/20241001125719.jpg" class="img-thumbnail col-md-4" style="padding:10px" >
-                    <img src="{{site.imgurl}}/assets/images/product/20241001131331.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
-                    <img src="{{site.imgurl}}/assets/images/product/20241001131858.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
-                </div>
-                <h4>Windproof performance</h4>
-                <p>The mesh like multi-layer microporous structure of PTFE film has non transparent pore sizes. When wind 
-                    contacts the surface of the film and encounters barriers, it will change direction or fold back, making it 
-                    difficult for air to penetrate. Therefore, external airflow cannot directly contact the human body.</p>
-                <h4>Thermal insulation performance</h4>
-                <p>PTFE membrane has strong moisture permeability, which can timely transfer the steam discharged by the human body to the outside of the microporous membrane, prevent water vapor from condensing into liquid water, and reduce the heat conduction of water; At the same time, the external wind cannot penetrate, effectively preventing air convection, thus making the membrane have a good windproof and sand keeping effect. Tests have shown that in strong winds of 25m/s, the insulation effect of 4M-PTFE laminated fabric is 30-40% higher than that of traditional down jackets.</p>    
-                <h4>
-                    Waterproof performance</h4>
-                <p>The water pressure resistance of Jiamo 4M-PTFE membrane can reach about 18000 mm water column (that is, it can be penetrated only when the pressure is greater than 18 m water column). The micropore diameter of the membrane is about 0.2 μ m, while the diameter of the drizzle is 400 μ m, the diameter of the heavy rain is about 3000 μ m, and the diameter of the rainstorm is more than 6000 μ m. Therefore, the micropore diameter of the membrane is 1/1000~1/20000 of the diameter of the water drop. At the same time, the PTFE surface energy is low, and the water is naturally hydrophobic, so the smallest raindrop cannot pass through the membrane micropore.
-                </p>    
-                <h4>Moisture permeability performance</h4>
-                <p> The international standard for testing moisture permeability performance is to use moisture permeability impedance as an indicator, which means that the smaller the impedance, the higher the air permeability. The detection value of the 4M-PTFE membrane composite fabric is 32603g/m2 · 24hr, with a moisture permeability of over 32 liters per day, which is more than 10 times that of commonly used fabrics.                   
-                </p>
-            </div>
-            <div class="col-md-4"><h4>FUNCTIONAL FABRIC</h4>{% include en_wellcome.html%}</div>
-        </div>
-        <hr/>
-        <div class="row" id="junyong">
-            <div class="col-md-8">
-                <h1>Military special textiles</h1>
-                <img src="{{site.imgurl}}/assets/images/product/20241003160906.jpg" class="img-thumbnail">
-                <p>Giamor 4M-PTFE membrane composite fabric has excellent properties such as wind and sand resistance, waterproofing, warmth retention, breathability, high and low temperature resistance, and flame retardancy. It is widely used in military, police, firefighting, special occupations, and outdoor fields.
-                </p>
-            </div>
-            <div class="col-md-4"><h4>Military special textiles</h4>{% include en_wellcome.html%}</div>
-        </div>
-        <hr/>
-        <div class="row" id="xiaofang">
-            <div class="col-md-8">
-                <h1>Textile in the field of fire protection</h1>
-                <div class="row" style="padding:10px">
-                    <img src="{{site.imgurl}}/assets/images/product/20241001140512.jpg" class="img-thumbnail col-md-4" style="padding:10px" >
-                    <img src="{{site.imgurl}}/assets/images/product/20241001140618.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
-                    <img src="{{site.imgurl}}/assets/images/product/20241001140735.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
-                </div>
-                <p>Giamor 4M-PTFE membrane composite fabric and other barrier technologies are used for the entire rescue service, including building firefighting, emergency medical services, search and rescue, and law enforcement, providing the highest level of protection, comfort, and performance from head to toe.</p>
-            </div>
-            <div class="col-md-4"><h4>Textile in the field of fire protection</h4>{% include en_wellcome.html%}</div>
-        </div>
-        <hr/>
-        <div class="row" id="huwai">
-            <div class="col-md-8">
-                <h1>Outdoor Fabric</h1>
-                <p>PTFE film has excellent thermal stability and can be used normally from a minimum of -150 ℃ to a maximum of+260 ℃, while materials such as PU coatings or TPU composite fabrics will break and freeze at a temperature of -30 ℃. Japanese mountaineers wear PTFE membrane clothing and have climbed mountains up to 8000 meters high multiple times. The clothing has withstood the test of climate conditions of minus 30 ℃ and wind speeds of 30m/s, and the athletes have not suffered any frostbite. Jiamo 4M-PTFE membrane composite fabric can withstand high temperatures of 260 ℃ and low temperatures of -150 ℃, and can be used in harsh environments to provide protection. It is also an excellent preferred material for firefighting suits, polar mountaineering suits, and special environments.
+        <div class="container product-detail" style="background-color: #fff;">
+            <div class="row" id="gaishu">
+                <div class="col-md-8">
+                    <h1>Summary</h1>
+                    <p> Polytetrafluoroethylene (PTFE) is formed by laminating PTFE microporous
+                        film with ordinary fabric using a special adhesive through a lamination process.
+                        It is waterproof, but sweat vapor emitted by the human body can diffuse or pass through
+                        the fabric to the outside, without accumulating and condensing between the body and the fabric.
+
+
                     </p>
-                    <img src="{{site.imgurl}}/assets/images/product/20241003160457.jpg" class="img-thumbnail">
+                </div>
+                <div class="col-md-4">
+                    <img src="{{site.imgurl}}/assets/images/product/20241001124831.jpg" class="img-thumbnail"
+                        style="margin-top: 10px;">
+                </div>
             </div>
-            <div class="col-md-4"><h4>Outdoor Fabric</h4>{% include en_wellcome.html%}</div>
+            <hr>
+            <div class="row" id="gongneng">
+                <div class="col-md-8">
+                    <h1>Functional fabrics</h1>
+                    <div class="row" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001125719.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001131331.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001131858.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                    </div>
+                    <h4>Wind resistance</h4>
+                    <p>The PTFE membrane has a networked multilayer microporous structure, with pores that are not
+                        permeable. When wind contacts the surface of the film, it encounters obstruction and changes
+                        direction or turns back. Air is difficult to penetrate, so external airflow cannot directly
+                        contact the human body.</p>
+                    <h4>thermal insulation</h4>
+                    <p>The PTFE membrane has a strong vapor permeability, which can quickly transmit the steam emitted
+                        by the human body to the microporous membrane outside, preventing water vapor from condensing
+                        into liquid water and reducing heat transfer by water. At the same time, the wind cannot
+                        penetrate, effectively preventing air convection, thus making the film have good windproof and
+                        heat-retaining effects. Tests show that the heat-retaining effect of the 4M-PTFE laminated
+                        fabric in a wind speed of 25m/s is 30-40% higher than that of traditional down jackets.</p>
+                    <h4>Waterproofing properties</h4>
+                    <p>The Giamor Membrane 4M-PTFE membrane can withstand water pressure of around20,000mm water column
+                        (i.e. it can only penetrate when the pressure is greater than 18 meters of water column), the
+                        pore size of the membrane micro holes is about 0.2um, while the diameter of the hair-like rain
+                        droplets is 400um, the diameter of the larger rain droplets is around 3000um, and the diameter
+                        of the heavy rain droplets is more than 6000um. Therefore, the pore size of the membrane micro
+                        holes is 1/1000 to 1/20000 of the diameter of water droplets, and at the same time, the surface
+                        energy of PTFE is low, and it is naturally hydrophobic, so even the smallest raindrops cannot
+                        pass through the membrane micro holes.</p>
+                    <h4>water vapor permeability</h4>
+                    <p>The test for water vapor permeability is internationally regulated by using the indicator of
+                        water vapor resistance, i.e., the smaller the resistance, the higher the air permeability. The
+                        test value of Jia Membrane 4M-PTFE fabric is 32,603 g/m2·24hr, with a daily water vapor
+                        permeability greater than 32 liters, which is more than 10 times that of common fabrics.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Functional fabrics</h4>{% include en_wellcome.html%}
+                </div>
+            </div>
+            <hr />
+            <div class="row" id="junyong">
+                <div class="col-md-8">
+                    <h1>Military Specialty Textiles</h1>
+                    <img src="{{site.imgurl}}/assets/images/product/20241003160906.jpg" class="img-thumbnail">
+                    <p>The Giamor Membrane 4M-PTFE membrane composite fabric has excellent anti-sandstorm, waterproof,
+                        insulation, breathable, heat-resistant, and flame-retardant properties, and is used in military,
+                        police, firefighting, special occupations, and outdoor fields.</p>
+                        <img src="{{site.imgurl}}/assets/images/product/20241014193901.jpg" class="img-thumbnail">
+                </div>
+                <div class="col-md-4">
+                    <h4>Military Specialty Textiles</h4>{% include en_wellcome.html%}
+                </div>
+            </div>
+            <hr />
+            <div class="row" id="xiaofang">
+                <div class="col-md-8">
+                    <h1>Fire Protection Textiles</h1>
+                    <div class="row" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001140512.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001140618.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001140735.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                    </div>
+                    <p>The Giamor 4M-PTFE membrane composite fabric and other barrier technologies are used throughout
+                        the rescue services, including building firefighting, emergency medical services, search and
+                        rescue, and law enforcement, providing the highest level of head-to-toe protection, comfort, and
+                        performance.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Fire Protection Textiles</h4>{% include en_wellcome.html%}
+                </div>
+            </div>
+            <hr />
+            <div class="row" id="huwai">
+                <div class="col-md-8">
+                    <h1>Outdoor fabric</h1>
+                    <p>PTFE film has excellent thermal stability and can be used normally at temperatures ranging from a
+                        minimum of -150°C to a maximum of +260°C, while materials such as PU coating or TPU composite
+                        fabrics will break and freeze at temperatures of -30°C. Japanese mountain climbers have worn
+                        clothing made of PTFE film fabric and have successfully climbed mountains over 8,000 meters in
+                        height. The clothes have withstood the test of climate conditions with temperatures as low as
+                        -30°C and wind speeds of 30m/s, with the climbers showing no signs of frostbite. The 4M-PTFE
+                        film composite fabric can withstand high temperatures of up to 260°C and low temperatures of
+                        -150°C, making it suitable for use in harsh environments to provide protection, and is also an
+                        excellent choice for firefighting suits, polar mountaineering suits, and materials for use in
+                        special environments.</p>
+                    <img src="{{site.imgurl}}/assets/images/product/20241003160457.jpg" class="img-thumbnail">
+                </div>
+                <div class="col-md-4">
+                    <h4>Outdoor fabric</h4>{% include en_wellcome.html%}
+                </div>
+            </div>
+
         </div>
-
     </div>
-</div>
 
 
- {% include en_footer.html %}
+    {% include en_footer.html %}
 
 
-<!-- /container -->
-<include file="public@scripts"/>
-<script src="{{site.baseurl}}/assets/js/slippry.min.js"></script>
-<script>
-    $(function () {
-        $("#home-slider").slippry({
-            transition: 'fade',
-            useCSS: true,
-            captions: false,
-            speed: 1000,
-            pause: 3000,
-            auto: true,
-            preload: 'visible'
+    <!-- /container -->
+    <include file="public@scripts" />
+    <script src="{{site.baseurl}}/assets/js/slippry.min.js"></script>
+    <script>
+        $(function () {
+            $("#home-slider").slippry({
+                transition: 'fade',
+                useCSS: true,
+                captions: false,
+                speed: 1000,
+                pause: 3000,
+                auto: true,
+                preload: 'visible'
+            });
+            $("#home-slider").show();
         });
-        $("#home-slider").show();
-    });
 
 
-</script>
-<hook name="before_body_end"/>
+    </script>
+    <hook name="before_body_end" />
 </body>
+
 </html>

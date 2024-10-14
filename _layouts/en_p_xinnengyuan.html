@@ -1,93 +1,136 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     {% include head.html %}
 </head>
+
 <body class="body-white">
-{% include en_nav.html%}
+    {% include en_nav.html%}
 
-<div style="background-color: #f5f5f5; padding: 30px 0 30px 0;"> 
-    <div class="container">
-        <ol class="breadcrumb">
-            <li><a href="/en/">Home</a></li>
-            <li class="active">Products</li>
-            <li class="active">HydrogenNewEnergy</li>
-        </ol>
-    </div>
-    <div class="container product-detail" style="background-color: #fff;">
-        <div class="row" id="gaishu">
-            <div class="col-md-8">
-                <h1>generality</h1>
-                <p>Proton exchange membranes are currently mainly used in fields such as hydrogen fuel cells for new energy vehicles, hydrogen production through electrolysis of water, and energy storage. Proton exchange membrane (PEMFC) is a technically difficult and high value-added link in the organic fluorine chemical industry chain. In history, proton exchange membranes were mostly produced and monopolized by large foreign companies, including GORE-SELECTR from the United States, DuPont from the United States, Asahi Glass and Asahi Kasei from Japan. </p>
-            </div>
-            <div class="col-md-4">
-                <img src="{{site.imgurl}}/assets/images/product/20241001202643.jpg" class="img-thumbnail">
-            </div>
+    <div style="background-color: #f5f5f5; padding: 30px 0 30px 0;">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="/en/">Home</a></li>
+                <li class="active">Products</li>
+                <li class="active">New energy</li>
+            </ol>
         </div>
-        <hr>
-        <div class="row"  id="zhiqing">
-            <div class="col-md-8">
-                <h1>water electrolysis</h1>
-                <p>According to data from the National Bureau of Statistics, the total amount of abandoned water, wind, and solar power in China has reached 102.2 billion kWh. Calculated at 10% for hydrogen production, it can meet the hydrogen demand of over 1 million passenger cars. At present, the two mature methods for hydrogen production through electrolysis of water are proton exchange membrane electrolysis and alkaline electrolysis. Proton exchange membrane electrolysis of water surpasses traditional alkaline electrolysis in terms of service life, current density, equipment start stop speed, and later operation and maintenance costs. Phase II proton exchange membrane electrolysis of water is more stable, occupies a smaller area, and has the advantage of large-scale development.
-                </p>
-            </div>
-            <div class="col-md-4"><h4>water electrolysis</h4>{% include en_wellcome.html%}</div>
-        </div>
-        <hr/>
-        <div class="row" id="dianchi">
-            <div class="col-md-8">
-                <h1>Hydrogen fuel cells for new energy vehicles</h1>
-                <p>Proton exchange membrane fuel cell (PEMFC) is the most commonly used form of fuel cell, which has the advantages of small size, high working efficiency, rapid start-up, long lifespan, and high current. It is a power generation device that directly converts the chemical energy of hydrogen and oxygen into electrical energy. The basic principle is to supply hydrogen and oxygen to the anode and cathode respectively. Hydrogen diffuses outward through the anode and reacts with the electrolyte, releasing electrons through an external load to reach the cathode, thereby generating an electric current. According to statistics, PEMFC occupies an absolute dominant position in the shipment volume of fuel cell types, with both the number of units (currently over 44000 units per year) and megawatts (currently over 1000MW) maintaining high-speed growth over the past five years, with a market share of over 80%. The number of fuel cell vehicles in China in 2020 was 7355. According to the "Energy saving and New Energy Vehicle Technology Roadmap", the development goals for fuel cell vehicles by 2025 and 2030 are 165000 and 1 million respectively. It can be seen that proton exchange membranes, as the core components of fuel cells, have a very broad incremental market space in the next 3-5 years.
-                </p>
-                <div class="row" style="padding:10px">
-                    <img src="{{site.imgurl}}/assets/images/product/20241001201703.jpg" class="img-thumbnail col-md-4" style="padding:10px" >
-                    <img src="{{site.imgurl}}/assets/images/product/20241001201559.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
-                    <img src="{{site.imgurl}}/assets/images/product/20241001201640.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
+        <div class="container product-detail" style="background-color: #fff;">
+            <div class="row" id="gaishu">
+                <div class="col-md-8">
+                    <h1>Summary</h1>
+                    <p>Proton exchange membrane (PEM) is currently mainly used in the fields of new energy vehicles
+                        hydrogen fuel cells, electrolysis of water to produce hydrogen, and energy storage. The proton
+                        exchange membrane (PEMFC) is a technologically challenging and high-value link in the organic
+                        hydrogen chemical industry chain. Historically, the global proton exchange membrane market has
+                        been dominated by large foreign companies, including Gore-Selectr from the United States, DuPont
+                        from the United States, Asahi Glass and Asahi Kasei from Japan.</p>
                 </div>
-                
-            </div>
-            <div class="col-md-4"><h4>Hydrogen fuel cells for new energy vehicles</h4>{% include en_wellcome.html%}</div>
-        </div>
-        <hr/>
-        <div class="row" id="chuneng">
-            <div class="col-md-8">
-                <h1>Vanadium flow battery energy storage system
-                </h1>
-                <div class="row" style="padding:10px">
-                    <img src="{{site.imgurl}}/assets/images/product/20241001202846.jpg" class="img-thumbnail col-md-4" style="padding:10px" >
-                    <img src="{{site.imgurl}}/assets/images/product/20241001202918.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
-                    <img src="{{site.imgurl}}/assets/images/product/20241001202947.jpg" class="img-thumbnail col-md-4"  style="padding:10px">
+                <div class="col-md-4" style="padding-top: 15px;">
+                    <img src="{{site.imgurl}}/assets/images/product/20241001202643.jpg" class="img-thumbnail">
                 </div>
-                <p>The all vanadium flow battery is safer than traditional lithium-ion battery systems due to its flow system ensuring safe operation. Its service life can reach 20 years, with tens of thousands of charge and discharge cycles, and its lifespan is 3-4 times that of traditional batteries.
-                </p>
             </div>
-            <div class="col-md-4"><h4>Vanadium flow battery energy storage system</h4>{% include en_wellcome.html%}</div>
+            <hr>
+            <div class="row" id="zhiqing">
+                <div class="col-md-8">
+                    <h1>Electrolysis of water to produce hydrogen</h1>
+                    <p>According to data from the National Bureau of Statistics, the total amount of wasted water, wind,
+                        and solar energy in China is 102.2 billion kWh. If 10% of this energy is used for hydrogen
+                        production, it can meet the hydrogen demand of more than 1 million passenger cars. Currently,
+                        the most mature methods for electrolytic water hydrogen production are the proton exchange
+                        membrane (PEM) electrolysis and alkaline electrolysis. PEM electrolysis has a comprehensive
+                        advantage over traditional alkaline electrolysis in terms of service life, current density,
+                        equipment startup and shutdown speed, and later maintenance costs. In addition, PEM electrolysis
+                        is more stable and has a smaller footprint, making it advantageous for large-scale development.
+                    </p>
+                    <img src="{{site.imgurl}}/assets/images/product/20241014195723.jpg" class="img-thumbnail">
+                </div>
+                <div class="col-md-4">
+                    <h4>Electrolysis of water to produce hydrogen</h4>{% include en_wellcome.html%}
+                </div>
+            </div>
+            <hr />
+            <div class="row" id="dianchi">
+                <div class="col-md-8">
+                    <h1>New Energy Vehicle Hydrogen Fuel Cell</h1>
+                    <p>Proton exchange membrane fuel cell (PEMFC) is the most commonly used form of fuel cell, which has
+                        the advantages of small size, high working efficiency, rapid start-up, long lifespan, and high
+                        current. It is a power generation device that directly converts the chemical energy of hydrogen
+                        and oxygen into electrical energy. The basic principle is to supply hydrogen and oxygen to the
+                        anode and cathode respectively. Hydrogen diffuses outward through the anode and reacts with the
+                        electrolyte, releasing electrons through an external load to reach the cathode, thereby
+                        generating an electric current. According to statistics, PEMFC occupies an absolute dominant
+                        position in the shipment volume of fuel cell types, with both the number of units (currently
+                        over 44000 units per year) and megawatts (currently over 1000MW) maintaining high-speed growth
+                        over the past five years, with a market share of over 80%. The number of fuel cell vehicles in
+                        China in 2020 was 7355. According to the "Energy saving and New Energy Vehicle Technology
+                        Roadmap", the development goals for fuel cell vehicles by 2025 and 2030 are 165000 and 1 million
+                        respectively. It can be seen that proton exchange membranes, as the core components of fuel
+                        cells, have a very broad incremental market space in the next 3-5 years.
+                    </p>
+                    <div class="row" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001201703.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001201559.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001201640.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <h4>New Energy Vehicle Hydrogen Fuel Cell</h4>{% include en_wellcome.html%}
+                </div>
+            </div>
+            <hr />
+            <div class="row" id="chuneng">
+                <div class="col-md-8">
+                    <h1>Vanadium Redox Flow Battery Energy Storage System</h1>
+                    <div class="row" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001202846.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001202918.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                        <img src="{{site.imgurl}}/assets/images/product/20241001202947.jpg"
+                            class="img-thumbnail col-md-4" style="padding:10px">
+                    </div>
+                    <p>Vanadium redox flow batteries are safer to operate than traditional lithium-ion battery systems
+                        due to their liquid flow system, and have a longer lifespan of up to 20 years, with tens of
+                        thousands of charge and discharge cycles, which is 3-4 times the life cycle of traditional
+                        batteries.</p>
+                    <img src="{{site.imgurl}}/assets/images/product/20241014200017.jpg" class="img-thumbnail">
+                </div>
+                <div class="col-md-4">
+                    <h4> Vanadium Redox Flow Battery Energy Storage System</h4>{% include en_wellcome.html%}
+                </div>
+            </div>
+
         </div>
-        
     </div>
-</div>
 
-{% include en_footer.html %}
+    {% include en_footer.html %}
 
-<!-- /container -->
-<include file="public@scripts"/>
-<script src="{{site.baseurl}}/assets/js/slippry.min.js"></script>
-<script>
-    $(function () {
-        $("#home-slider").slippry({
-            transition: 'fade',
-            useCSS: true,
-            captions: false,
-            speed: 1000,
-            pause: 3000,
-            auto: true,
-            preload: 'visible'
+    <!-- /container -->
+    <include file="public@scripts" />
+    <script src="{{site.baseurl}}/assets/js/slippry.min.js"></script>
+    <script>
+        $(function () {
+            $("#home-slider").slippry({
+                transition: 'fade',
+                useCSS: true,
+                captions: false,
+                speed: 1000,
+                pause: 3000,
+                auto: true,
+                preload: 'visible'
+            });
+            $("#home-slider").show();
         });
-        $("#home-slider").show();
-    });
 
 
-</script>
-<hook name="before_body_end"/>
+    </script>
+    <hook name="before_body_end" />
 </body>
+
 </html>
