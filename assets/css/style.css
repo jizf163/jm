@@ -123,5 +123,5 @@ label, input, button, select, textarea {
 
 }
 
-.product-detail p{ line-height: 35px;padding: 10px 0 10px 0;font-size: 18px;}
+.product-detail p{ line-height: 35px;padding: 10px 0 10px 0;font-size: 18px;text-align: justify}
 .container .jumbotron{ background:url(/assets/images/p_bj.jpg) repeat center; color: #fff;padding-left: 0px; padding-right: 0px;}

@@ -1,45 +1,48 @@
 <div class="link">
     <div style="background-color:#e33d29">
         <span class="glyphicon glyphicon-phone-alt"></span>
-        <div style="position: absolute; background-color: #343434; top:0px;right: 55px;width:250px;display: none;">{{site.tel}}</div>
+        <div style="position: absolute; background-color: #343434; top:0px;right: 55px;width:250px;height: 110px;display: none;">
+            {{site.tel}}<br>{{site.tel2}}</div>
     </div>
     <div style="background-color:#343434;">
         <span class="glyphicon glyphicon-envelope"></span>
-        <div style="position: absolute; background-color: #343434; top:55px;right: 55px;width:350px;display: none;">{{site.email}}</div>
+        <div style="position: absolute; background-color: #343434; top:55px;right: 55px;width:350px;height: 110px;display: none;">
+            {{site.email}}<br>{{site.email2}}</div>
     </div>
     <div style="background-color:#343434;">
         <span class="glyphicon glyphicon-qrcode"></span>
-        <div style="font-size: 14px;line-height: 35px;position: absolute; background-color: #343434; top:110px;right: 55px;width:150px;height:340px;display: none;padding:10px">
-            <img src="{{site.imgurl}}/assets/images/erweima.jpg" class="img-thumbnail" >
+        <div
+            style="font-size: 14px;line-height: 35px;position: absolute; background-color: #343434; top:110px;right: 55px;width:150px;height:340px;display: none;padding:10px">
+            <img src="{{site.imgurl}}/assets/images/erweima.jpg" class="img-thumbnail">
             WeChat
-            <img src="{{site.imgurl}}/assets/images/link-whatsapp.jpg" class="img-thumbnail" >
+            <img src="{{site.imgurl}}/assets/images/link-whatsapp.jpg" class="img-thumbnail">
             WhatsApp
         </div>
     </div>
 </div>
 <script>
-    $(document).ready(function() {
-        $('.link').find('div').hover(function(){
+    $(document).ready(function () {
+        $('.link').find('div').hover(function () {
             // 鼠标进入时
-                 $(this).find('div').fadeIn(500);
-                }, function() {
-    // 鼠标离开时
-                 $(this).find('div').fadeOut(500);
+            $(this).find('div').fadeIn(500);
+        }, function () {
+            // 鼠标离开时
+            $(this).find('div').fadeOut(500);
         })
 
-//   $('#phone').hover(function() {
-//     console.log($('#phone').next());
-//     $(this).next().css('display',"inline");
-//     // 鼠标进入时
-//     $(this).find('.icon').stop().animate({
-//       left: 0
-//     }, 300); // 0.3秒内完成移动
-//   }, function() {
-//     // 鼠标离开时
-//     $('#phone').next().css('display',"none");
-//     $(this).find('.icon').stop().animate({
-//       left: -50
-//     }, 300); // 0.3秒内完成移回
-//   });
-});
+        //   $('#phone').hover(function() {
+        //     console.log($('#phone').next());
+        //     $(this).next().css('display',"inline");
+        //     // 鼠标进入时
+        //     $(this).find('.icon').stop().animate({
+        //       left: 0
+        //     }, 300); // 0.3秒内完成移动
+        //   }, function() {
+        //     // 鼠标离开时
+        //     $('#phone').next().css('display',"none");
+        //     $(this).find('.icon').stop().animate({
+        //       left: -50
+        //     }, 300); // 0.3秒内完成移回
+        //   });
+    });
 </script>
