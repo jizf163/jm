@@ -22,6 +22,6 @@ collections:
    name: 
    output: true
 baseurl: "" # the subpath of your site, e.g. /blog 
-imgurl: "http://img.xindapin.cn/jiamo/"
+imgurl: "http://img.xindapin.cn/jiamo"
 #port:    4000
 #host:    192.168.88.101
